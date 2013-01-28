@@ -11,9 +11,18 @@
 @interface MatchismoViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *flipsLabel;
 @property(nonatomic) int flipsCount;
+@property(strong,nonatomic) PlayingDeck* deck;
 @end
-
 @implementation MatchismoViewController
+-(PlayingDeck *) deck
+{
+    if (!_deck) {
+        _deck = [[PlayingDeck alloc] init];
+    }
+    
+    return _deck;
+}
+
 
 -(void) setFlipsCount:(int)flipsCount
 {
@@ -23,6 +32,12 @@
 - (IBAction)flipCard:(UIButton *)sender
 {
     sender.selected=!sender.isSelected;
+    if(!sender.isSelected){
+        Card *card=[self.deck drawRandomCard];
+        if(card){
+            [sender setTitle:card.contents forState:UIControlStateSelected];
+        }
+      }
     self.flipsCount++;
 }
 
