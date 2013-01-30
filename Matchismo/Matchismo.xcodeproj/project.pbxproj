@@ -18,10 +18,13 @@
 		2C38B4E316B60AF6006E9773 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C38B4E216B60AF6006E9773 /* Default-568h@2x.png */; };
 		2C38B4E616B60AF6006E9773 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C38B4E416B60AF6006E9773 /* MainStoryboard.storyboard */; };
 		2C38B4E916B60AF6006E9773 /* MatchismoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C38B4E816B60AF6006E9773 /* MatchismoViewController.m */; };
+		2C4FA76C16B951AF004AEB82 /* Blue_Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C4FA76B16B951AF004AEB82 /* Blue_Back.png */; };
+		2C4FA76F16B95566004AEB82 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4FA76E16B95566004AEB82 /* CardMatchingGame.m */; };
+		2C56243C16B990EB000E150D /* Blue_Back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C56243B16B990EB000E150D /* Blue_Back.jpg */; };
 		2C6A7D1116B6C17600328EDB /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6A7D1016B6C17600328EDB /* Deck.m */; };
 		2C6A7D1616B6C30200328EDB /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6A7D1516B6C30200328EDB /* Card.m */; };
 		2C6A7D1916B6C33E00328EDB /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6A7D1816B6C33E00328EDB /* PlayingCard.m */; };
-		2C6A7D1C16B6C35200328EDB /* PlayingDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6A7D1B16B6C35200328EDB /* PlayingDeck.m */; };
+		2C9BFB7316B9504400168417 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9BFB7216B9504400168417 /* PlayingCardDeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,14 +44,18 @@
 		2C38B4E516B60AF6006E9773 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		2C38B4E716B60AF6006E9773 /* MatchismoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatchismoViewController.h; sourceTree = "<group>"; };
 		2C38B4E816B60AF6006E9773 /* MatchismoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchismoViewController.m; sourceTree = "<group>"; };
+		2C4FA76B16B951AF004AEB82 /* Blue_Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blue_Back.png; sourceTree = "<group>"; };
+		2C4FA76D16B95566004AEB82 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = Model/CardMatchingGame.h; sourceTree = "<group>"; };
+		2C4FA76E16B95566004AEB82 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = Model/CardMatchingGame.m; sourceTree = "<group>"; };
+		2C56243B16B990EB000E150D /* Blue_Back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Blue_Back.jpg; sourceTree = "<group>"; };
 		2C6A7D0F16B6C17600328EDB /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Model/Deck.h; sourceTree = "<group>"; };
 		2C6A7D1016B6C17600328EDB /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Model/Deck.m; sourceTree = "<group>"; };
 		2C6A7D1416B6C30200328EDB /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
 		2C6A7D1516B6C30200328EDB /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
 		2C6A7D1716B6C33E00328EDB /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCard.h; path = Model/PlayingCard.h; sourceTree = "<group>"; };
 		2C6A7D1816B6C33E00328EDB /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCard.m; path = Model/PlayingCard.m; sourceTree = "<group>"; };
-		2C6A7D1A16B6C35200328EDB /* PlayingDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingDeck.h; path = Model/PlayingDeck.h; sourceTree = "<group>"; };
-		2C6A7D1B16B6C35200328EDB /* PlayingDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingDeck.m; path = Model/PlayingDeck.m; sourceTree = "<group>"; };
+		2C9BFB7116B9504400168417 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardDeck.h; path = Model/PlayingCardDeck.h; sourceTree = "<group>"; };
+		2C9BFB7216B9504400168417 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = Model/PlayingCardDeck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +114,8 @@
 		2C38B4D316B60AF6006E9773 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2C56243B16B990EB000E150D /* Blue_Back.jpg */,
+				2C4FA76B16B951AF004AEB82 /* Blue_Back.png */,
 				2C38B4DB16B60AF6006E9773 /* MatchismoAppDelegate.h */,
 				2C38B4DC16B60AF6006E9773 /* MatchismoAppDelegate.m */,
 				2C38B4D416B60AF6006E9773 /* Matchismo-Info.plist */,
@@ -123,14 +132,16 @@
 		2C6A7D1316B6C17C00328EDB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2C4FA76D16B95566004AEB82 /* CardMatchingGame.h */,
+				2C4FA76E16B95566004AEB82 /* CardMatchingGame.m */,
+				2C9BFB7116B9504400168417 /* PlayingCardDeck.h */,
+				2C9BFB7216B9504400168417 /* PlayingCardDeck.m */,
 				2C6A7D0F16B6C17600328EDB /* Deck.h */,
 				2C6A7D1016B6C17600328EDB /* Deck.m */,
 				2C6A7D1416B6C30200328EDB /* Card.h */,
 				2C6A7D1516B6C30200328EDB /* Card.m */,
 				2C6A7D1716B6C33E00328EDB /* PlayingCard.h */,
 				2C6A7D1816B6C33E00328EDB /* PlayingCard.m */,
-				2C6A7D1A16B6C35200328EDB /* PlayingDeck.h */,
-				2C6A7D1B16B6C35200328EDB /* PlayingDeck.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -145,6 +156,7 @@
 				2C38B4C416B60AF6006E9773 /* Sources */,
 				2C38B4C516B60AF6006E9773 /* Frameworks */,
 				2C38B4C616B60AF6006E9773 /* Resources */,
+				50524F424C454D533F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -192,10 +204,28 @@
 				2C38B4E116B60AF6006E9773 /* Default@2x.png in Resources */,
 				2C38B4E316B60AF6006E9773 /* Default-568h@2x.png in Resources */,
 				2C38B4E616B60AF6006E9773 /* MainStoryboard.storyboard in Resources */,
+				2C4FA76C16B951AF004AEB82 /* Blue_Back.png in Resources */,
+				2C56243C16B990EB000E150D /* Blue_Back.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50524F424C454D533F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Library/JailCoder/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ]; then\n/Library/JailCoder/Entitlements/Entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2C38B4C416B60AF6006E9773 /* Sources */ = {
@@ -208,7 +238,8 @@
 				2C6A7D1116B6C17600328EDB /* Deck.m in Sources */,
 				2C6A7D1616B6C30200328EDB /* Card.m in Sources */,
 				2C6A7D1916B6C33E00328EDB /* PlayingCard.m in Sources */,
-				2C6A7D1C16B6C35200328EDB /* PlayingDeck.m in Sources */,
+				2C9BFB7316B9504400168417 /* PlayingCardDeck.m in Sources */,
+				2C4FA76F16B95566004AEB82 /* CardMatchingGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,7 +274,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -271,7 +302,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;

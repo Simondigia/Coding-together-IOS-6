@@ -11,6 +11,8 @@
 @interface PlayingCard : Card
 @property(weak, nonatomic)NSString *suit;
 @property(nonatomic) NSUInteger rank;
+//ili ti static metode
+//mogu da se pozovu iako objekat nije naprevljen
 +(NSArray *) validSuits;
 +(NSUInteger) maxRank;
 @end

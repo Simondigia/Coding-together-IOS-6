@@ -8,6 +8,6 @@
 
 #import "Deck.h"
 #import "PlayingCard.h"
-@interface PlayingDeck : Deck
+@interface PlayingCardDeck : Deck
 
 @end

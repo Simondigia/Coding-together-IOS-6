@@ -6,9 +6,9 @@
 //  Copyright (c) 2013. Ozrenko Dragic. All rights reserved.
 //
 
-#import "PlayingDeck.h"
+#import "PlayingCardDeck.h"
 
-@implementation PlayingDeck
+@implementation PlayingCardDeck
 -(id)init
 {
     self = [super init];
