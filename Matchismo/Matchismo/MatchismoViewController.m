@@ -45,11 +45,12 @@
 {
     _cardButtons=cardButtons;
     UIImage *backImage=[UIImage imageNamed:@"Blue_back.jpg"];
+    UIImage *empty=[[UIImage alloc]init];
+   
     for(UIButton *cardButton in self.cardButtons){
-        [cardButton setTitle:@"" forState:UIControlStateNormal];
-        //[cardButton setImage:backImage forState:UIControlStateNormal];
-        //[cardButton setImage:nil forState:UIControlStateSelected];
-                    }
+             [cardButton setImage:backImage forState:UIControlStateNormal];
+             [cardButton setImage:empty forState:UIControlStateSelected];
+                              }
     [self updateUI:[NSString stringWithFormat:@""]];
 }
 
