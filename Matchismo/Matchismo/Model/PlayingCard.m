@@ -29,10 +29,10 @@
 }
 
 
--(NSString *)contents
+-(NSAttributedString *)contents
 {
     NSArray *rankStrings = [PlayingCard rankStrings];
-    return [NSString stringWithFormat:@"%@%@", rankStrings[self.rank], self.suit];
+    return [[NSAttributedString alloc]initWithString:[NSString stringWithFormat:@"%@%@", rankStrings[self.rank], self.suit]];
     
 }
 /* when implementing the getter AND the setter you HAVE to synthesize manually! */

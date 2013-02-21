@@ -96,6 +96,7 @@
                     card.unplayable=YES;
                     self.score+=match2*MATCH_BONUS*2;
                     description=[NSString stringWithFormat:@"Matched %@  & %@ & %@",card.contents,secondCard.contents,thridCard.contents];
+                    
                 }
                         }
             //no match

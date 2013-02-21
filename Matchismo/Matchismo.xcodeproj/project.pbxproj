@@ -18,6 +18,9 @@
 		2C38B4E316B60AF6006E9773 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C38B4E216B60AF6006E9773 /* Default-568h@2x.png */; };
 		2C38B4E616B60AF6006E9773 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C38B4E416B60AF6006E9773 /* MainStoryboard.storyboard */; };
 		2C38B4E916B60AF6006E9773 /* MatchismoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C38B4E816B60AF6006E9773 /* MatchismoViewController.m */; };
+		2C49F19716D3B26D00017772 /* SetCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C49F19616D3B26D00017772 /* SetCard.m */; };
+		2C49F19A16D3B4C100017772 /* SetCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C49F19916D3B4C000017772 /* SetCardDeck.m */; };
+		2C49F19D16D3BAFD00017772 /* SetGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C49F19C16D3BAFD00017772 /* SetGameViewController.m */; };
 		2C4FA76C16B951AF004AEB82 /* Blue_Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C4FA76B16B951AF004AEB82 /* Blue_Back.png */; };
 		2C4FA76F16B95566004AEB82 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4FA76E16B95566004AEB82 /* CardMatchingGame.m */; };
 		2C56243C16B990EB000E150D /* Blue_Back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C56243B16B990EB000E150D /* Blue_Back.jpg */; };
@@ -25,6 +28,15 @@
 		2C6A7D1616B6C30200328EDB /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6A7D1516B6C30200328EDB /* Card.m */; };
 		2C6A7D1916B6C33E00328EDB /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6A7D1816B6C33E00328EDB /* PlayingCard.m */; };
 		2C9BFB7316B9504400168417 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9BFB7216B9504400168417 /* PlayingCardDeck.m */; };
+		2CB37F7316C85ABA00362E65 /* GameResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB37F7216C85ABA00362E65 /* GameResultsViewController.m */; };
+		2CB37F7616C85E7800362E65 /* GameResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB37F7516C85E7800362E65 /* GameResult.m */; };
+		2CF3731316C1D7B0006B7B62 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF3730C16C1D7B0006B7B62 /* Icon-72.png */; };
+		2CF3731416C1D7B0006B7B62 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF3730D16C1D7B0006B7B62 /* Icon-Small-50.png */; };
+		2CF3731516C1D7B0006B7B62 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF3730E16C1D7B0006B7B62 /* Icon-Small.png */; };
+		2CF3731616C1D7B0006B7B62 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF3730F16C1D7B0006B7B62 /* Icon-Small@2x.png */; };
+		2CF3731716C1D7B0006B7B62 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF3731016C1D7B0006B7B62 /* Icon.png */; };
+		2CF3731816C1D7B0006B7B62 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF3731116C1D7B0006B7B62 /* Icon@2x.png */; };
+		2CF3731916C1D7B0006B7B62 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF3731216C1D7B0006B7B62 /* iTunesArtwork.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +56,12 @@
 		2C38B4E516B60AF6006E9773 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		2C38B4E716B60AF6006E9773 /* MatchismoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatchismoViewController.h; sourceTree = "<group>"; };
 		2C38B4E816B60AF6006E9773 /* MatchismoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchismoViewController.m; sourceTree = "<group>"; };
+		2C49F19516D3B26D00017772 /* SetCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetCard.h; path = Model/SetCard.h; sourceTree = "<group>"; };
+		2C49F19616D3B26D00017772 /* SetCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetCard.m; path = Model/SetCard.m; sourceTree = "<group>"; };
+		2C49F19816D3B4C000017772 /* SetCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetCardDeck.h; sourceTree = "<group>"; };
+		2C49F19916D3B4C000017772 /* SetCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetCardDeck.m; sourceTree = "<group>"; };
+		2C49F19B16D3BAFD00017772 /* SetGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetGameViewController.h; sourceTree = "<group>"; };
+		2C49F19C16D3BAFD00017772 /* SetGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetGameViewController.m; sourceTree = "<group>"; };
 		2C4FA76B16B951AF004AEB82 /* Blue_Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blue_Back.png; sourceTree = "<group>"; };
 		2C4FA76D16B95566004AEB82 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = Model/CardMatchingGame.h; sourceTree = "<group>"; };
 		2C4FA76E16B95566004AEB82 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = Model/CardMatchingGame.m; sourceTree = "<group>"; };
@@ -56,6 +74,17 @@
 		2C6A7D1816B6C33E00328EDB /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCard.m; path = Model/PlayingCard.m; sourceTree = "<group>"; };
 		2C9BFB7116B9504400168417 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardDeck.h; path = Model/PlayingCardDeck.h; sourceTree = "<group>"; };
 		2C9BFB7216B9504400168417 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = Model/PlayingCardDeck.m; sourceTree = "<group>"; };
+		2CB37F7116C85ABA00362E65 /* GameResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameResultsViewController.h; sourceTree = "<group>"; };
+		2CB37F7216C85ABA00362E65 /* GameResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameResultsViewController.m; sourceTree = "<group>"; };
+		2CB37F7416C85E7800362E65 /* GameResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameResult.h; sourceTree = "<group>"; };
+		2CB37F7516C85E7800362E65 /* GameResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameResult.m; sourceTree = "<group>"; };
+		2CF3730C16C1D7B0006B7B62 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../Icon-72.png"; sourceTree = "<group>"; };
+		2CF3730D16C1D7B0006B7B62 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "../Icon-Small-50.png"; sourceTree = "<group>"; };
+		2CF3730E16C1D7B0006B7B62 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "../Icon-Small.png"; sourceTree = "<group>"; };
+		2CF3730F16C1D7B0006B7B62 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "../Icon-Small@2x.png"; sourceTree = "<group>"; };
+		2CF3731016C1D7B0006B7B62 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		2CF3731116C1D7B0006B7B62 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		2CF3731216C1D7B0006B7B62 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = ../iTunesArtwork.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +136,10 @@
 				2C38B4E816B60AF6006E9773 /* MatchismoViewController.m */,
 				2C38B4D316B60AF6006E9773 /* Supporting Files */,
 				2C6A7D1316B6C17C00328EDB /* Model */,
+				2CB37F7116C85ABA00362E65 /* GameResultsViewController.h */,
+				2CB37F7216C85ABA00362E65 /* GameResultsViewController.m */,
+				2C49F19B16D3BAFD00017772 /* SetGameViewController.h */,
+				2C49F19C16D3BAFD00017772 /* SetGameViewController.m */,
 			);
 			path = Matchismo;
 			sourceTree = "<group>";
@@ -114,6 +147,13 @@
 		2C38B4D316B60AF6006E9773 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2CF3730C16C1D7B0006B7B62 /* Icon-72.png */,
+				2CF3730D16C1D7B0006B7B62 /* Icon-Small-50.png */,
+				2CF3730E16C1D7B0006B7B62 /* Icon-Small.png */,
+				2CF3730F16C1D7B0006B7B62 /* Icon-Small@2x.png */,
+				2CF3731016C1D7B0006B7B62 /* Icon.png */,
+				2CF3731116C1D7B0006B7B62 /* Icon@2x.png */,
+				2CF3731216C1D7B0006B7B62 /* iTunesArtwork.png */,
 				2C56243B16B990EB000E150D /* Blue_Back.jpg */,
 				2C4FA76B16B951AF004AEB82 /* Blue_Back.png */,
 				2C38B4DB16B60AF6006E9773 /* MatchismoAppDelegate.h */,
@@ -132,6 +172,8 @@
 		2C6A7D1316B6C17C00328EDB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2CB37F7416C85E7800362E65 /* GameResult.h */,
+				2CB37F7516C85E7800362E65 /* GameResult.m */,
 				2C4FA76D16B95566004AEB82 /* CardMatchingGame.h */,
 				2C4FA76E16B95566004AEB82 /* CardMatchingGame.m */,
 				2C9BFB7116B9504400168417 /* PlayingCardDeck.h */,
@@ -142,6 +184,10 @@
 				2C6A7D1516B6C30200328EDB /* Card.m */,
 				2C6A7D1716B6C33E00328EDB /* PlayingCard.h */,
 				2C6A7D1816B6C33E00328EDB /* PlayingCard.m */,
+				2C49F19516D3B26D00017772 /* SetCard.h */,
+				2C49F19616D3B26D00017772 /* SetCard.m */,
+				2C49F19816D3B4C000017772 /* SetCardDeck.h */,
+				2C49F19916D3B4C000017772 /* SetCardDeck.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -206,6 +252,13 @@
 				2C38B4E616B60AF6006E9773 /* MainStoryboard.storyboard in Resources */,
 				2C4FA76C16B951AF004AEB82 /* Blue_Back.png in Resources */,
 				2C56243C16B990EB000E150D /* Blue_Back.jpg in Resources */,
+				2CF3731316C1D7B0006B7B62 /* Icon-72.png in Resources */,
+				2CF3731416C1D7B0006B7B62 /* Icon-Small-50.png in Resources */,
+				2CF3731516C1D7B0006B7B62 /* Icon-Small.png in Resources */,
+				2CF3731616C1D7B0006B7B62 /* Icon-Small@2x.png in Resources */,
+				2CF3731716C1D7B0006B7B62 /* Icon.png in Resources */,
+				2CF3731816C1D7B0006B7B62 /* Icon@2x.png in Resources */,
+				2CF3731916C1D7B0006B7B62 /* iTunesArtwork.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +293,11 @@
 				2C6A7D1916B6C33E00328EDB /* PlayingCard.m in Sources */,
 				2C9BFB7316B9504400168417 /* PlayingCardDeck.m in Sources */,
 				2C4FA76F16B95566004AEB82 /* CardMatchingGame.m in Sources */,
+				2CB37F7316C85ABA00362E65 /* GameResultsViewController.m in Sources */,
+				2CB37F7616C85E7800362E65 /* GameResult.m in Sources */,
+				2C49F19716D3B26D00017772 /* SetCard.m in Sources */,
+				2C49F19A16D3B4C100017772 /* SetCardDeck.m in Sources */,
+				2C49F19D16D3BAFD00017772 /* SetGameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +332,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Ozrenko Dragic";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -289,6 +348,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -302,6 +362,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Ozrenko Dragic";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -310,6 +371,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -318,10 +380,12 @@
 		2C38B4ED16B60AF6006E9773 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Matchismo/Matchismo-Prefix.pch";
 				INFOPLIST_FILE = "Matchismo/Matchismo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -329,10 +393,12 @@
 		2C38B4EE16B60AF6006E9773 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Matchismo/Matchismo-Prefix.pch";
 				INFOPLIST_FILE = "Matchismo/Matchismo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
